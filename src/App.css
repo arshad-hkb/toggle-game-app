@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "BlackLivesFont", sans-serif;
+  /* Use the font-family where needed */
+}
+@font-face {
+  font-family: "BlackLivesFont";
+  src: url("../src/fonts/aBlackLives.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Sticky Header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
 }

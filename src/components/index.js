@@ -1,2 +1,3 @@
 export * from "./Footer";
-export * from "./ProtectedLayout";
+export * from "./Layout";
+export * from "./Header";

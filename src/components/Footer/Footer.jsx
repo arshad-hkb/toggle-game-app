@@ -7,11 +7,13 @@ const Footer = () => {
   return (
     <>
       <nav>
-        <Link to={INFO_ROUTE}>Info</Link>
-        <Link to={HASIL_ROUTE}>Hasil</Link>
-        <Link to={PERMAINON_ROUTE}>Permainon</Link>
-        <Link to={STATEMENT_ROUTE}>Statement</Link>
-        <Link to={SAYA}>Saya</Link>
+        <div className="footer">
+          <Link to={INFO_ROUTE}>Info</Link>
+          <Link to={HASIL_ROUTE}>Hasil</Link>
+          <Link to={PERMAINON_ROUTE}>Permainon</Link>
+          <Link to={STATEMENT_ROUTE}>Statement</Link>
+          <Link to={SAYA}>Saya</Link>
+        </div>
       </nav>
     </>
   );

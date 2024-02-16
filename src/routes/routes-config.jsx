@@ -5,6 +5,14 @@ const { HASIL_ROUTE, INFO_ROUTE, PERMAINON_ROUTE, SAYA, STATEMENT_ROUTE } =
   ROUTE_CONSTANTS;
 export const routesConfig = [
   {
+    path: "/",
+    component: <Permainon />,
+  },
+  {
+    path: PERMAINON_ROUTE,
+    component: <Permainon />,
+  },
+  {
     path: HASIL_ROUTE,
     component: <Hasil />,
   },
@@ -12,10 +20,7 @@ export const routesConfig = [
     path: INFO_ROUTE,
     component: <Info />,
   },
-  {
-    path: PERMAINON_ROUTE,
-    component: <Permainon />,
-  },
+
   {
     path: SAYA,
     component: <Saya />,
