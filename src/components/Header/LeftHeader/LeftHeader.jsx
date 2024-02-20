@@ -1,7 +1,8 @@
 import React from "react";
-
+import useStyles from "./style";
 const LeftHeader = () => {
-  return <div>LeftHeader</div>;
+  const classes = useStyles();
+  return <div className={classes.leftHeaderContent}>LeftHeader</div>;
 };
 
 export default LeftHeader;
